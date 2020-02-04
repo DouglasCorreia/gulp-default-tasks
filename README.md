@@ -28,4 +28,4 @@ The Gulp Workflow is an enviroment to improve your development while programming
 - For changes in files to recompile
 - File types: .css, .html, .php, .js
 
-Have a fun programming!
+Have fun programming!
