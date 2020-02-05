@@ -51,9 +51,9 @@ gulp imageMinify
 After you finished the entire development, run the following command:
 
 ```
-gulp build
+gulp deploy
 ```
 
-This command will create a folder called "build" with only files that you need.
+This command will create a folder called "deploy" with only files that you need.
 
 Have fun programming!
