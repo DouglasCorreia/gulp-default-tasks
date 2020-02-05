@@ -46,14 +46,14 @@ Create a subfolder "images" inside the developer folder, add your images and the
 gulp imageMinify
 ```
 
-### Command to send to production
+### Command to send to the production enviroment
 
-After you finished the entire development, run the following command to send to production:
+After you finished the entire development, run the following command:
 
 ```
 gulp build
 ```
 
-This command will create a folder called "build" with only files that you need to send.
+This command will create a folder called "build" with only files that you need.
 
 Have fun programming!
