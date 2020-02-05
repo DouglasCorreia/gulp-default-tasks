@@ -12,6 +12,8 @@ The Gulp Workflow is an enviroment to improve your development while programming
 - Convert SASS to CSS
 - Merging media queries
 - Minification
+- Reset CSS
+- Grids
 
 ## Javascript
 
@@ -27,5 +29,31 @@ The Gulp Workflow is an enviroment to improve your development while programming
 
 - For changes in files to recompile
 - File types: .css, .html, .php, .js
+
+## Getting Started
+
+Copy the files package.json, gulpfile.js and the folder developer.
+
+```
+npm install
+```
+
+### Command to compress the images
+
+Create a subfolder "images" inside the developer folder, add your images and then run the following command:
+
+```
+gulp imageMinify
+```
+
+### Command to send to production
+
+After you finished the entire development, run the following command to send to production:
+
+```
+gulp build
+```
+
+This command will create a folder called "build" with only files that you need to send.
 
 Have fun programming!
